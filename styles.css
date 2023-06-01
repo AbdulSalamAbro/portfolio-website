@@ -14,3 +14,40 @@ header{
     width: 100%;
     height: 100vh;
 }
+
+#background-image #name-heading{
+display: flex;
+justify-content: center;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+text-align: center;
+
+
+
+color: #172B4D;
+}
+#background-image #job-role{
+
+    display: flex;
+    justify-content: center;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+
+text-align: center;
+
+
+
+color:#36B37E;
+
+}
+
