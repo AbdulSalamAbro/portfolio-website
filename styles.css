@@ -18,7 +18,7 @@ header{
 #background-image #name-heading{
 display: flex;
 justify-content: center;
-padding-top: 100px;
+padding-top: 10px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -66,4 +66,10 @@ color: #172B4D;
 #social-icons{
     display: flex;
     justify-content: space-evenly;
+}
+
+#arrow-down{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
 }
