@@ -62,3 +62,8 @@ line-height: 28px;
 text-align: center;
 color: #172B4D;
 }
+
+#social-icons{
+    display: flex;
+    justify-content: center;
+}
