@@ -1,75 +1,63 @@
-header{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-}
-#mobile-navbar img{
-    width: 50px;
+header {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
-#background-image{
-    background-image: url("./assets/header-bg-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
+#mobile-navbar img {
+  width: 50px;
 }
 
-#background-image #name-heading{
-display: flex;
-justify-content: center;
-padding-top: 10px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-
-text-align: center;
-
-
-
-color: #172B4D;
-}
-#background-image #job-role{
-
-    display: flex;
-    justify-content: center;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-
-
-text-align: center;
-
-
-
-color:#36B37E;
-
+#background-image {
+  background-image: url("./assets/header-bg-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
 
-#background-image p{   
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-
-text-align: center;
-color: #172B4D;
+#background-image #name-heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
 }
 
-#social-icons{
-    display: flex;
-    justify-content: space-evenly;
+#background-image #job-role {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #36b37e;
 }
 
-#arrow-down{
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
+#background-image p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#arrow-down {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
 }
