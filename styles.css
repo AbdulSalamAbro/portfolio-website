@@ -65,5 +65,5 @@ color: #172B4D;
 
 #social-icons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
