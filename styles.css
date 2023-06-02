@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+
+@media only screen and (min-width: 375px) {
+}
+
 header {
   display: flex;
   align-items: flex-end;
@@ -26,7 +30,7 @@ header {
   background-image: url("./assets/header-bg-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: left 3rem;
+  background-position: left 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
