@@ -51,10 +51,18 @@ header {
   color: #172b4d;
 }
 
-#social-icons {
+#social-icons ul {
   display: flex;
-  justify-content: space-evenly;
+  
+  list-style-type: none;
+  justify-content: center;
+
 }
+#social-icons ul li {
+  margin: 10px;
+ 
+}
+
 
 #arrow-down {
   padding-top: 30px;
