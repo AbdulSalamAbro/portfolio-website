@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.container {
+  padding: 0 27px;
+}
+
+#mobile-navbar {
+  padding-top: 27px;
+  padding-right: 27px;
+}
+
+#mobile-navbar img {
+  width: 40px;
+}
+
+#headline-section {
+  background-image: url("./assets/header-bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh;
+}
+
+#headline-section #name-heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  padding-top: 40px;
+  background-position: top;
+  padding-bottom: 5px;
+}
+
+#headline-section #job-role {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #36b37e;
+  padding-bottom: 10px;
+}
+
+#headline-section p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  padding: 10px;
+}
+
+#social-icons ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+#social-icons ul li {
+  margin: 10px;
+}
+
+#arrow-down {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
