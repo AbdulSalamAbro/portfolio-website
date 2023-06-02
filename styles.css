@@ -89,3 +89,31 @@ header {
   display: flex;
   justify-content: center;
 }
+
+#work-heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  padding-top: 40px;
+  background-position: top;
+  padding-bottom: 5px;
+}
+
+hr{
+ 
+
+width: 48px;
+height: 4px;
+
+background: #36B37E;
+border-radius: 24px;
+display: flex;
+align-items: center;
+
+}
