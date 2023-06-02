@@ -1,20 +1,23 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
+
 header {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
 }
-.container{
+
+.container {
   padding: 0 27px;
 }
 
-#mobile-navbar{
+#mobile-navbar {
   padding-top: 27px;
   padding-right: 27px;
 }
+
 #mobile-navbar img {
   width: 40px;
 }
