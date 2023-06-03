@@ -117,21 +117,67 @@ background: #36B37E;
 border-radius: 24px;
 }
 
-#projects-cards{
+#projects-card{
   display: grid;
-  grid-template-columns: 50%;
-  grid-auto-rows: minmax(200px,200px);
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(300px,auto);
   border: 1px solid #D0D9D4;
-  background: black;
+  background: #D0D9D4;
   border-radius: 8px;
   margin: 0 20px;
+  row-gap: 10rem;
+  margin-top: 40px;
 
+}
+.project{
+  display: flex;
+  flex-direction: column;
+}
+.project .image{
+  width: 100%;
+  height: 50%;
+  background-color:  #D0D9D4;
 }
 
 
-#projects-cards #two{
-  background: white;
-  color:black;
+.project .content{
+
+  background-color: white;
   border: 1px solid #D0D9D4;
-  border-radius: 8px;   
+  height: 50%;
+  border-radius: 8px;  
+  
+}
+
+.content h3{
+  text-align: center;
+  padding-top: 16px;
+}
+
+.project .languages{
+  padding-top: 16px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap:12px;
+}
+
+ul li{
+  background-color: #EBF0EE;
+  padding: 5px;
+  border-radius: 8px;
+}
+.greenbtn{
+padding: 12px;
+gap: 10px;
+
+width: 122px;
+height: 48px;
+bottom: 8px;
+
+/* Theme 2 / Primary 2 */
+
+background: #36B37F;
+border-radius: 2px;
 }
