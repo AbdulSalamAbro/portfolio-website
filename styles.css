@@ -105,15 +105,33 @@ header {
   padding-bottom: 5px;
 }
 
-hr{
- 
 
+#line{
+  display: grid;
+  justify-content: center;
+}
+#line hr{
 width: 48px;
 height: 4px;
-
 background: #36B37E;
 border-radius: 24px;
-display: flex;
-align-items: center;
+}
 
+#projects-cards{
+  display: grid;
+  grid-template-columns: 50%;
+  grid-auto-rows: minmax(200px,200px);
+  border: 1px solid #D0D9D4;
+  background: black;
+  border-radius: 8px;
+  margin: 0 20px;
+
+}
+
+
+#projects-cards #two{
+  background: white;
+  color:black;
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;   
 }
