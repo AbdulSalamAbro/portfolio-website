@@ -203,13 +203,17 @@ line-height: 24px;
 border: none;
 border-radius: 4px;
 padding: 12px;
+color: #FFFFFF;
+margin-top: 20px;
 
 }
 
 .languages li{
   background-color: #EBF0EE;
+  color: #3A4A42;
   padding: 4px 4px;
   border-radius: 4px;
+
   
 }
 /* .greenbtn{
