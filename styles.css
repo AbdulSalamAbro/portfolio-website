@@ -1,6 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:'Inter';
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -99,7 +107,7 @@ header {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172b4d;
+  color: #3A4A42;
   padding-top: 40px;
   background-position: top;
   padding-bottom: 5px;
@@ -115,27 +123,34 @@ width: 48px;
 height: 4px;
 background: #36B37E;
 border-radius: 24px;
+border: none;
 }
 
 #projects-card{
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(300px,auto);
-  border: 1px solid #D0D9D4;
-  background: #D0D9D4;
+  
+  
   border-radius: 8px;
   margin: 0 20px;
-  row-gap: 10rem;
-  margin-top: 40px;
+  row-gap: 20px;
+  
 
 }
 .project{
   display: flex;
   flex-direction: column;
+
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  
+  
 }
 .project .image{
-  width: 100%;
-  height: 50%;
+  width: 327;
+  height: 222px;
   background-color:  #D0D9D4;
 }
 
@@ -144,7 +159,8 @@ border-radius: 24px;
 
   background-color: white;
   border: 1px solid #D0D9D4;
-  height: 50%;
+  width: 327;
+  height: 222px;
   border-radius: 8px;  
   
 }
@@ -152,32 +168,78 @@ border-radius: 24px;
 .content h3{
   text-align: center;
   padding-top: 16px;
+  color: #3A4A42;
 }
+
 
 .project .languages{
   padding-top: 16px;
   display: flex;
   list-style: none;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  
   gap:12px;
 }
 
-ul li{
-  background-color: #EBF0EE;
-  padding: 5px;
-  border-radius: 8px;
+/* .btn{
+  justify-content: center;
+  align-items: center;
+} */
+
+
+.project .btn{
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  
 }
 .greenbtn{
+  background: #36B37F;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+border: none;
+border-radius: 4px;
+padding: 12px;
+
+}
+
+.languages li{
+  background-color: #EBF0EE;
+  padding: 4px 4px;
+  border-radius: 4px;
+  
+}
+/* .greenbtn{
 padding: 12px;
 gap: 10px;
-
-width: 122px;
-height: 48px;
-bottom: 8px;
-
-/* Theme 2 / Primary 2 */
-
+margin: 24px 120px 14px;
 background: #36B37F;
-border-radius: 2px;
+border:none;
+border-radius: 4px;
+
+
+width: 128px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+
+text-align: center;
+align-items: center;
+
+color: #FFFFFF;
+} */
+
+
+.project-btn{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
 }
