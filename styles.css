@@ -108,7 +108,6 @@ header {
   line-height: 52px;
   text-align: center;
   color: #3A4A42;
-  
   padding-top: 40px;
   background-position: top;
   padding-bottom: 5px;
@@ -250,4 +249,31 @@ color: #FFFFFF;
   justify-items: center;
   align-items: center;
 
+}
+
+#aboutme-heading{
+
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #3A4A42;
+  padding-top: 40px;
+  background-position: top;
+  padding-bottom: 5px;
+}
+
+#about-myself p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #42526E;;
+  padding: 10px;
 }
