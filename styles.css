@@ -282,3 +282,17 @@ color: #FFFFFF;
   background-repeat:no-repeat;
   background-position: right top;
 }
+
+.bottomleft{
+  background: url(assets/bottomleft.svg);
+  background-repeat:no-repeat;
+  background-position: left bottom;
+
+}
+#about-myself .btn{
+  
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  
+}
