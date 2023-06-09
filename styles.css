@@ -294,6 +294,7 @@ header {
   justify-content: center;
   padding-bottom: 10px;
 }
+
 #portfolio-skills {
   display: grid;
   grid-template-columns: 1fr;
