@@ -168,6 +168,8 @@ border: none;
   
 }
 
+
+
 .content h3{
   text-align: center;
   padding-top: 16px;
@@ -176,6 +178,31 @@ border: none;
 
 
 .project .languages{
+  padding-top: 16px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+  gap:12px;
+}
+
+.languages{
+  padding-top: 16px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+  gap:12px;
+}
+.portfolio-languages{
+  padding-top: 16px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+  gap:12px;
+}
+.porfolio-details .languages{
   padding-top: 16px;
   display: flex;
   list-style: none;
@@ -216,31 +243,25 @@ margin-top: 20px;
   color: #3A4A42;
   padding: 4px 4px;
   border-radius: 4px;
+}
+
+.portfolio-languages li{
+  background-color: white;
+  color: #36B37E;
+  padding: 4px 4px;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+.content .lang li{
+  background-color: white;
+  color: #3A4A42;
+  padding: 4px 4px;
+  border-radius: 4px;
 
   
 }
-/* .greenbtn{
-padding: 12px;
-gap: 10px;
-margin: 24px 120px 14px;
-background: #36B37F;
-border:none;
-border-radius: 4px;
 
-
-width: 128px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-
-text-align: center;
-align-items: center;
-
-color: #FFFFFF;
-} */
 
 
 .project-btn{
@@ -294,5 +315,33 @@ color: #FFFFFF;
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+  
+}
+
+#portfolio-skills{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(300px,auto);
+  row-gap: 20px;
+  margin: 0 20px;
+  justify-content: center;
+
+
+}
+
+.portfolio-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #EBF0EE;
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  color: #344563;
+  padding-bottom: 40px;
+  
+  
   
 }
