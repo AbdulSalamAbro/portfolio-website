@@ -316,3 +316,7 @@ header {
   color: #344563;
   padding-bottom: 40px;
 }
+
+.portfolio-details h4 {
+  font-size: 24px;
+}
