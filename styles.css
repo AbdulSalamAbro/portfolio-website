@@ -197,8 +197,9 @@ border: none;
 .portfolio-languages{
   padding-top: 16px;
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
   
   gap:12px;
 }
