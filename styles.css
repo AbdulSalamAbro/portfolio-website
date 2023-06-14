@@ -137,6 +137,7 @@ header {
   display: grid;
   justify-content: center;
 }
+
 #line hr {
   width: 48px;
   height: 4px;
@@ -152,6 +153,7 @@ header {
   border-radius: 24px;
   border: none;
 }
+
 #projects-card {
   display: grid;
   grid-template-columns: 1fr;
@@ -293,6 +295,7 @@ header {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+
 form {
   padding-top: 20px;
   display: flex;
@@ -300,26 +303,25 @@ form {
   justify-content: center;
   gap: 3px;
   align-items: center;
-  border-radius: 8px;
   font-family: 'Inter', sans-serif;
-border-radius: 4px;
-font-weight: 400;
-color: #42526E;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #42526e;
 }
-#contact-form p{
-width: 327px;
-height: 363px;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-text-align: center;
-justify-content: center;
-padding-left: 20px;
-margin-top: 20px;
 
-color: #172B4D;
+#contact-form p {
+  width: 327px;
+  height: 363px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  justify-content: center;
+  padding-left: 20px;
+  margin-top: 20px;
+  color: #172b4d;
 }
 
 .topright {
@@ -365,28 +367,30 @@ color: #172B4D;
 .portfolio-details h4 {
   font-size: 24px;
 }
-.inputs{
+
+.inputs {
   display: flex;
   flex-direction: column;
-}
-.contacr_form{
-  display: flex;
-  flex-direction: column;
-  
 }
 
-.contact .form1{
+.contacr_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .form1 {
   padding: 12px 67px 12px 0;
   margin-top: 50px;
   outline: none;
-  
 }
-.contact .form2{
+
+.contact .form2 {
   padding: 12px 67px 12px 0;
   margin-top: 20px;
   outline: none;
 }
-.contact .text_form{
+
+.contact .text_form {
   /* padding: 10px 67px 77px 0; */
   padding: 10px 35px 77px 0;
   margin-top: 20px;
@@ -394,16 +398,19 @@ color: #172B4D;
   outline: none;
   border-radius: 4px;
 }
-.contact .form_btn{
+
+.contact .form_btn {
   padding: 10px 14px;
-margin-top: 20px;
+  margin-top: 20px;
   border: none;
-  background-color:green ;
+  background-color: green;
   color: #fff;
 }
- span{
+
+span {
   padding-top: 20px;
- }
-footer{
+}
+
+footer {
   padding-top: 20px;
 }
