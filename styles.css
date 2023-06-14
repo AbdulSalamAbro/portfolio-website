@@ -351,19 +351,34 @@ color: #172B4D;
 .portfolio-details h4 {
   font-size: 24px;
 }
-
-form {
-  padding-top: 20px;
+.inputs{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 15px;
-  align-items: center;
+}
+.contacr_form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact .form1{
+  padding: 12px 57px;
+  margin-top: 50px;
+}
+.contact .form2{
+  padding: 12px 57px;
+  margin-top: 20px;
+}
+.contact .text_form{
+  padding: 10px 57px 67px;
+  margin-top: 20px;
+}
+.contact .form_btn{
+  padding: 10px 14px;
   border-radius: 8px;
-  font-family: 'Inter', sans-serif;
-border-radius: 4px;
-font-weight: 400;
-color: #42526E;
+  border: none;
+  background-color:green ;
+  color: #fff;
 }
 
 footer{
