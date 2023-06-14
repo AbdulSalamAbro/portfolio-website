@@ -276,6 +276,12 @@ header {
   color: #42526e;
   padding: 10px;
 }
+
+#contact-form {
+  background: url(assets/contact-frame.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
 #contact-form p{
 width: 327px;
 height: 363px;
@@ -335,11 +341,16 @@ color: #172B4D;
   font-size: 24px;
 }
 
-#contact-form {
+form {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 15px;
   align-items: center;
   border-radius: 8px;
   font-family: 'Inter', sans-serif;
+border-radius: 4px;
+font-weight: 400;
 }
+
