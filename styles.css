@@ -334,3 +334,12 @@ color: #172B4D;
 .portfolio-details h4 {
   font-size: 24px;
 }
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
