@@ -293,6 +293,19 @@ header {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  align-items: center;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+border-radius: 4px;
+font-weight: 400;
+color: #42526E;
+}
 #contact-form p{
 width: 327px;
 height: 363px;
@@ -374,10 +387,12 @@ color: #172B4D;
   outline: none;
 }
 .contact .text_form{
-  padding: 10px 90px 77px 0;
+  /* padding: 10px 67px 77px 0; */
+  padding: 10px 35px 77px 0;
   margin-top: 20px;
   border: solid 1px green;
   outline: none;
+  border-radius: 4px;
 }
 .contact .form_btn{
   padding: 10px 14px;
@@ -386,10 +401,9 @@ margin-top: 20px;
   background-color:green ;
   color: #fff;
 }
- .inputs span{
-  
-}
-
+ span{
+  padding-top: 20px;
+ }
 footer{
   padding-top: 20px;
 }
