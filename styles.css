@@ -358,27 +358,35 @@ color: #172B4D;
 .contacr_form{
   display: flex;
   flex-direction: column;
-
+  
 }
 
 .contact .form1{
-  padding: 12px 57px;
+  padding: 12px 67px 12px 0;
   margin-top: 50px;
+  outline: none;
+  
 }
 .contact .form2{
-  padding: 12px 57px;
+  padding: 12px 67px 12px 0;
   margin-top: 20px;
+  outline: none;
 }
 .contact .text_form{
-  padding: 10px 57px 67px;
+  padding: 10px 90px 77px 0;
   margin-top: 20px;
+  border: solid 1px green;
+  outline: none;
 }
 .contact .form_btn{
   padding: 10px 14px;
-  border-radius: 8px;
+margin-top: 20px;
   border: none;
   background-color:green ;
   color: #fff;
+}
+ .inputs span{
+  
 }
 
 footer{
