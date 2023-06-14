@@ -276,6 +276,20 @@ header {
   color: #42526e;
   padding: 10px;
 }
+#contact-form p{
+width: 327px;
+height: 363px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+justify-content: center;
+padding-left: 20px;
+
+color: #172B4D;
+}
 
 .topright {
   background: url(assets/righttop.svg);
