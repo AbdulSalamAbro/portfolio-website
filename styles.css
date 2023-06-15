@@ -301,12 +301,37 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3px;
+  gap: 10px;
   align-items: center;
   font-family: 'Inter', sans-serif;
   border-radius: 4px;
   font-weight: 400;
+  width: 100%;
+}
+
+form input{
+  padding: 10px;
+  padding-right: 94px;
+  margin-left: auto;
+  margin-right: auto;
   color: #42526e;
+
+}
+
+form textarea{
+  padding: 10px;
+  padding-right: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #42526E;
+  border: 1px solid #60C095;
+  border-radius: 4px;
+}
+
+form .greenbtn:hover{
+  background-color: #067044;
+  font-weight: 700px;
+  width: 150px;
 }
 
 #contact-form p {
@@ -366,45 +391,6 @@ form {
 
 .portfolio-details h4 {
   font-size: 24px;
-}
-
-.inputs {
-  display: flex;
-  flex-direction: column;
-}
-
-.contacr_form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact .form1 {
-  padding: 12px 67px 12px 0;
-  margin-top: 50px;
-  outline: none;
-}
-
-.contact .form2 {
-  padding: 12px 67px 12px 0;
-  margin-top: 20px;
-  outline: none;
-}
-
-.contact .text_form {
-  /* padding: 10px 67px 77px 0; */
-  padding: 10px 35px 77px 0;
-  margin-top: 20px;
-  border: solid 1px green;
-  outline: none;
-  border-radius: 4px;
-}
-
-.contact .form_btn {
-  padding: 10px 14px;
-  margin-top: 20px;
-  border: none;
-  background-color: green;
-  color: #fff;
 }
 
 span {
