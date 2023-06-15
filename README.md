@@ -152,7 +152,7 @@ These are the coming soon features for this project:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Name: Mohammad Jalal Ahmadi https://github.com/jalal1379 colaborate on contact-form-pair-programing branch
 
 Feel free to check the [issues page](../../issues/).
 
