@@ -181,12 +181,6 @@
     font-family: 'Inter', sans-serif;
   }
   
-  /* .project .image{
-    width: 327;
-    height: 222px;
-    background-color:  #D0D9D4;
-  } */
-  
   .project .content {
     margin-top: 50%;
     background-color: white;
@@ -205,7 +199,7 @@
     padding-top: 16px;
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     gap: 12px;
   }
   
@@ -418,6 +412,27 @@
       column-gap: 20px;
       padding-left: 20px;
       padding-right: 20px;
+    }
+
+    .project .languages {
+      padding-top: 16px;
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    #about-myself p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #42526e;
+      padding-left: 220px;
+      padding-right: 220px;
+      box-sizing: border-box;
     }
   }
 
