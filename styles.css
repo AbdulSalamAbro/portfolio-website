@@ -309,26 +309,25 @@ form {
   width: 100%;
 }
 
-form input{
+form input {
   padding: 10px;
   padding-right: 94px;
   margin-left: auto;
   margin-right: auto;
   color: #42526e;
-
 }
 
-form textarea{
+form textarea {
   padding: 10px;
   padding-right: 130px;
   margin-left: auto;
   margin-right: auto;
-  color: #42526E;
-  border: 1px solid #60C095;
+  color: #42526e;
+  border: 1px solid #60c095;
   border-radius: 4px;
 }
 
-form .greenbtn:hover{
+form .greenbtn:hover {
   background-color: #067044;
   font-weight: 700px;
   width: 150px;
