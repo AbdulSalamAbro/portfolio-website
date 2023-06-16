@@ -407,6 +407,22 @@
   }  
 
   @media(min-width:768px) {
+    #navbar-grid{
+      display: grid;
+      grid-template-columns: repeat(12,1fr);
+    }
+    #desktop-navbar{
+      grid-column: 6 / span 6;
+      justify-content: center;
+    }
+
+    #desktop-navbar a{
+      color: #3a4a42;
+      margin-left: 15px;
+      font-weight: bold;
+
+    }
+
     #projects-card {
       grid-template-columns: repeat(3, 1fr);
       column-gap: 20px;
