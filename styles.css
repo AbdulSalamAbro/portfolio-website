@@ -419,6 +419,19 @@
       justify-content: center;
     }
 
+    #desktop-contactform{
+      display: grid;
+      grid-template-columns: repeat(12,1fr);
+      background: url(assets/contactbg.PNG);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    #desktop-contactform p{
+      grid-column: 2 / span 6;
+      justify-content: center;
+      
+    }
+
     #desktop-navbar a{
       color: #3a4a42;
       margin-left: 15px;
@@ -497,6 +510,19 @@
       display: none;
     }
     
+    #line hr{
+      display: none;
+    }
+    #footer-line hr{
+      display: none;
+    }
+
+    #contact-form {
+      display: none;
+      
+    }
+
+  
    
     
   }
