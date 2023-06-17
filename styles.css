@@ -535,16 +535,16 @@ footer {
     display: none;
   }
 
-  #desktop-contactform .inline-form{
+  #desktop-contactform .inline-form {
     grid-column: span 3;
-   
   }
-  .form-inline {  
+
+  .form-inline {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-  
   }
+
   form input {
     padding: 10px;
     flex-direction: column;
@@ -553,7 +553,7 @@ footer {
     margin-right: auto;
     color: #42526e;
   }
-  
+
   form textarea {
     padding: 10px;
     padding-right: 240px;
@@ -563,6 +563,7 @@ footer {
     border: 1px solid #60c095;
     border-radius: 4px;
   }
+
   .greenbtn {
     background: #36b37f;
     font-family: 'Inter', sans-serif;
@@ -577,5 +578,4 @@ footer {
     margin-top: 20px;
     align-items: start;
   }
- 
 }
