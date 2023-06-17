@@ -426,7 +426,7 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     background: url(assets/contactbg.PNG);
     background-repeat: no-repeat;
-    background-size: 100% 70%;
+    background-size: 100% 90%;
     width: 100%;
     padding-bottom: 100px;
     margin-top: 60px;
@@ -506,7 +506,7 @@ footer {
 
   #desktop-contactform p {
     margin-top: 40px;
-    grid-column: 2 / span 6;
+    grid-column: 1 /span 6;
     justify-content: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -515,7 +515,7 @@ footer {
     text-align: center;
     color: #172b4d;
     padding: 10px;
-    margin-left: 15%;
+    margin-left: 30%;
     line-height: 132%;
   }
 
@@ -534,4 +534,48 @@ footer {
   #contact-form {
     display: none;
   }
+
+  #desktop-contactform .inline-form{
+    grid-column: span 3;
+   
+  }
+  .form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  
+  }
+  form input {
+    padding: 10px;
+    flex-direction: column;
+    padding-right: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #42526e;
+  }
+  
+  form textarea {
+    padding: 10px;
+    padding-right: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #42526e;
+    border: 1px solid #60c095;
+    border-radius: 4px;
+  }
+  .greenbtn {
+    background: #36b37f;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    color: #fff;
+    margin-top: 20px;
+    align-items: start;
+  }
+ 
 }
