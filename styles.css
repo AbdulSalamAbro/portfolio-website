@@ -428,7 +428,6 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 70%;
     width: 100%;
-
     padding-bottom: 100px;
     margin-top: 60px;
   }
@@ -517,7 +516,6 @@ footer {
     color: #172b4d;
     padding: 10px;
     margin-left: 15%;
-  justify-content: center;
     line-height: 132%;
   }
 
