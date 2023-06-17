@@ -516,8 +516,8 @@ footer {
     text-align: center;
     color: #172b4d;
     padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+  justify-content: center;
     line-height: 132%;
   }
 
