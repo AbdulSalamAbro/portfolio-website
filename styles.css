@@ -64,6 +64,9 @@ header {
   padding-top: 40px;
   background-position: top;
   padding-bottom: 5px;
+  animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
 }
 
 #headline-section #job-role {
@@ -585,4 +588,5 @@ footer {
     color: #fff;
     margin-top: 20px;
   }
+
 }
