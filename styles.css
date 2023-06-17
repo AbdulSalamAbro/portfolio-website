@@ -421,7 +421,7 @@ footer {
     flex-direction: row;
     background: url(assets/contactbg.PNG);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 90%;
     width: 100%;
     padding-bottom: 100px;
     margin-top: 60px;
@@ -526,7 +526,6 @@ footer {
     line-height: 132%;
     width: 40%;
     letter-spacing: 1px;
-
   }
 
   #mobile-navbar img {
@@ -579,7 +578,6 @@ footer {
     align-self: flex-start;
     background: #36b37f;
     font-family: 'Inter', sans-serif;
-    margin-left: 10%;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
