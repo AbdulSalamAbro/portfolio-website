@@ -448,8 +448,6 @@ footer {
   #projects-card {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
   .project .languages {
