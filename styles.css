@@ -228,11 +228,6 @@ header {
   gap: 12px;
 }
 
-/* .btn{
-    justify-content: center;
-    align-items: center;
-  } */
-
 .project .btn {
   padding-top: 16px;
   display: flex;
@@ -303,7 +298,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   align-items: center;
   font-family: 'Inter', sans-serif;
   border-radius: 4px;
@@ -422,14 +417,26 @@ footer {
   }
 
   #desktop-contactform {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    display: flex;
+    flex-direction: row;
     background: url(assets/contactbg.PNG);
     background-repeat: no-repeat;
     background-size: 100% 90%;
     width: 100%;
     padding-bottom: 100px;
     margin-top: 60px;
+  }
+
+  #desktop-contactform > div {
+    display: flex;
+    width: 85vw;
+    margin: 0 auto;
+    gap: 30px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: start;
   }
 
   #desktop-navbar a {
@@ -440,7 +447,7 @@ footer {
 
   #projects-card {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+    column-gap: 20px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -473,8 +480,8 @@ footer {
     row-gap: 30px;
     justify-content: center;
     column-gap: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 98px;
+    margin-right: 98px;
   }
 
   #headline-section {
@@ -505,7 +512,8 @@ footer {
   }
 
   #desktop-contactform p {
-    margin-top: 40px;
+    margin-left: 5%;
+    margin-top: 60px;
     grid-column: 1 /span 6;
     justify-content: center;
     font-family: 'Inter', sans-serif;
@@ -515,8 +523,9 @@ footer {
     text-align: center;
     color: #172b4d;
     padding: 10px;
-    margin-left: 30%;
     line-height: 132%;
+    width: 40%;
+    padding: 0;
   }
 
   #mobile-navbar img {
@@ -537,6 +546,7 @@ footer {
 
   #desktop-contactform .inline-form {
     grid-column: span 3;
+    width: 52%;
   }
 
   .form-inline {
@@ -546,36 +556,36 @@ footer {
   }
 
   form input {
-    padding: 10px;
     flex-direction: column;
-    padding-right: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    padding: 10px 0 10px 10px;
+    margin: 0;
     color: #42526e;
   }
 
   form textarea {
     padding: 10px;
-    padding-right: 240px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     color: #42526e;
     border: 1px solid #60c095;
     border-radius: 4px;
+    width: 80%;
+    padding: 10px 0 10px 10px;
+    min-height: 114px;
   }
 
   .greenbtn {
+    align-self: flex-start;
     background: #36b37f;
     font-family: 'Inter', sans-serif;
+    margin-left: 10%;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
     border: none;
     border-radius: 4px;
-    padding: 12px;
     color: #fff;
     margin-top: 20px;
-    align-items: start;
   }
 }
