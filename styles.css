@@ -555,19 +555,20 @@ footer {
   }
 
   form input {
-    flex-direction: column;
-    width: 80%;
+    align-self: flex-start;
+    width: 85%;
     padding: 10px 0 10px 10px;
     margin: 0;
     color: #42526e;
   }
 
   form textarea {
+    align-self: flex-start;
     margin: 0;
     color: #42526e;
     border: 1px solid #60c095;
     border-radius: 4px;
-    width: 80%;
+    width: 85%;
     padding: 10px 0 10px 10px;
     min-height: 114px;
   }
