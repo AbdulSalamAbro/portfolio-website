@@ -16,15 +16,24 @@
             <img src="assets/menu.png" alt="">
         </nav>
     </header>
+  
+
     <section id="headline-section">
+        <header id="navbar-grid">
+            <nav id="desktop-navbar">
+                <a href="#home">Portfolio</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a> 
+        </nav>
+        </header>
         <div class="container">
             <h1 >
                 <span id="name-heading">
-                    Hey there<br>
+                    Hey there
                 I'm Abdul Salam
                 </span>
                 <span id="job-role">
-                    I',m a Software<br>
+                    I',m a Software
                     Developer
                 </span>
                 
@@ -57,7 +66,7 @@
     <section id="work-section">
         <h2>
             <span id="work-heading">
-                My Recent<br>
+                My Recent
                 Work
             </span>
         </h2>
@@ -255,7 +264,7 @@
     </section>  
 
     <section id="contact-form">
-        <p>I'm always interested in hearing about new projects, so if you you'd like to chat please get in touch</p>
+        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch</p>
         <div class="inputs">
             <form class="contact" action="https://formspree.io/f/mgebgadd" method="post">
                 <input class="form1" type="text" id="name" type="text" placeholder="Full name" maxlength="30"   required ><br>
@@ -268,7 +277,16 @@
             
         </div>
     </section>
-
+    <div id="desktop-contactform">
+            <p>I'm always interested in hearing about new projects, so if you you'd like to chat please get in touch</p>
+                    <form class="inline-form" action="https://formspree.io/f/mgebgadd" method="post">
+                    <input  type="text" id="name" type="text" placeholder="Full Name" maxlength="30"   required ><br>
+                    <input name="Email" id="email" type="email" placeholder="Email address"   required><br>
+                    <textarea name="textarea" id="textarea" placeholder="Hey I'd like to connect to..." maxlength="500" rows="3"  required></textarea><br>
+                    <button type="submit" class="greenbtn">Get in touch</button>
+                </form>   
+    </div>
+    
     <footer>
         <section id="social-icons">
             <ul>
