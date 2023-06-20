@@ -64,9 +64,7 @@ header {
   padding-top: 40px;
   background-position: top;
   padding-bottom: 5px;
-  animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
+  
 }
 
 #headline-section #job-role {
@@ -451,6 +449,8 @@ footer {
   #projects-card {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .project .languages {
@@ -527,6 +527,7 @@ footer {
     line-height: 132%;
     width: 40%;
     letter-spacing: 1px;
+
   }
 
   #mobile-navbar img {
@@ -588,5 +589,4 @@ footer {
     color: #fff;
     margin-top: 20px;
   }
-
 }
