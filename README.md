@@ -113,7 +113,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Deployed with github pages at:
-- https://abdulsalamabro.github.io/portfolio-website.git
+- https://abdulsalamabro.github.io/portfolio-website/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
