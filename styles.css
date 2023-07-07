@@ -22,8 +22,8 @@ header {
   width: 40px;
 }
 
-#headline-section {
-  background-image: url("./assets/header-bg-mobile.png");
+.headline-section {
+  background-image: url("./assets/mobile-bg-image.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: left 1rem;
